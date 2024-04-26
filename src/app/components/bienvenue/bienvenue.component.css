@@ -1,0 +1,78 @@
+body{
+    background-image: url(../../../assets/bac-2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    }
+container{
+    text-align: center;
+    margin-top: 20%;
+         }
+h1{
+    font-size: 3.5em;
+    position: absolute;
+    top: 80px;
+    left:20px ;
+    right:20px ;
+    bottom:20px ;
+    color: blue;
+    font-style: italic;
+  }
+p{
+    font-size: 2em;
+    position: absolute;
+    top: 250px;
+    left:20px ;
+    right:20px ;
+    bottom:20px ;
+    color: blue;
+    font-style: inherit;
+     }
+h2{
+    font-size: 1em;
+    position: absolute;
+    top: 570px;
+    left:100px ;
+    right:1100px ;
+    bottom:20px ;
+    color: white;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+    background-color:blue;
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+}
+h3{
+  font-size: 1em;
+    position: absolute;
+    top: 570px;
+    left:1250px ;
+    right:100px ;
+    bottom:20px ;
+    color: white;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+    background-color:red;
+    padding: 10px;
+    width: 100px;
+    height: 20px;  
+}
+left-image, right-image{
+    display: inline-block;
+    width: 20%;
+    margin-top: 800px;
+}
+left-image{
+    float: left;
+}
+right-image{
+    float: right;
+}
