@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>page des unités</title>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <!-- Buttons column -->
+            <div class="col-md-3">
+                <div *ngFor="let unite of unites" class="mb-4" style="margin-top:100px">
+                    <button [routerLink]="['unite', unite.id]" class="btn btn-info btn-block " (click)="toggleUnite()">Unité {{ unite.id }}</button>
+                </div>
+            </div>
+            <!-- Router outlet column -->
+            <div class="col-md-9 d-flex justify-content-center align-items-right mt-3">
+                <div *ngIf="showUnite">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <div class="unite">
-	<h1><strong>Retour</strong></h1>
-	<h2><strong>Suivant</strong></h2>
-    <div class="buttons">
-    <button type="button" class="btn1 btn-success"  [routerLink]='unite'>Unité 1</button>
-    <br>
-    <button type="button" class="btn2 btn-danger" [routerLink]='unite'>Unité 2</button>
-    
-</div>
-</div>
 </body>
 </html>
+    
+

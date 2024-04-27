@@ -9,6 +9,7 @@ import { PageUExComponent } from './components/page-uex/page-uex.component';
 import { BienvenueComponent } from './components/bienvenue/bienvenue.component';
 import { ListeDesUniteComponent } from './components/liste-des-unite/liste-des-unite.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ExercicesComponent } from './components/exercices/exercices.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +18,7 @@ import { RouterModule, Routes } from '@angular/router';
     PageUExComponent,
     BienvenueComponent,
     ListeDesUniteComponent,
+    ExercicesComponent,
     
   ],
   imports: [
