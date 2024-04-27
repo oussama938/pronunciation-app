@@ -1,15 +1,18 @@
-import { Component } from '@angular/core';
-import { AcceuilComponent} from './components/acceuil/acceuil.component';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    this.route.navigateByUrl('acceuil')
+  }
+
+  constructor(private route:Router){
+
+  }
   
-//   acceuil:String | undefined;
-//     constructor(){
-//       this.acceuil='/acceuil'
-// }
-////////
+
 }
