@@ -25,6 +25,8 @@ import { ExercicesComponent } from './components/exercices/exercices.component';
     BrowserModule,
     AppRoutingModule,
     
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -32,3 +34,4 @@ import { ExercicesComponent } from './components/exercices/exercices.component';
 export class AppModule { 
   
 }
+
