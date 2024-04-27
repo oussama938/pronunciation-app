@@ -27,7 +27,7 @@ export class Exercise2Service {
   }
 
   // Method to get all linked pairs
-  getLinkedPairs(): LinkedPair[] {
+  getLinkedPairs(): LinkedPair() {
     return this.exercise2.linkedPairs;
   }
 }
