@@ -30,4 +30,6 @@ export class Exercise2Service {
   getLinkedPairs(): LinkedPair() {
     return this.exercise2.linkedPairs;
   }
+
+  x :string;
 }
