@@ -37,6 +37,13 @@ video {
     max-width: 800px; /* Adjust as needed */
     
 }
+#bt1{
+    width: 900px;
+
+}
+.btn{
+    width: 900px;
+}
 
 .btn1,
 .btn2 {
@@ -50,4 +57,5 @@ video {
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:purple
+    
 }

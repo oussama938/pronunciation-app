@@ -8,15 +8,45 @@
 </head>
 <body>
     <div class="container">
-        <div class="header" style="margin-bottom:100px;margin-top:20px">
-            <h1>Es-tu prêt à faire de l'exercice !  Oussama SSS</h1>
+        <div class="header" style="margin-bottom:100px;margin-top:100px">
+            <h1>Es-tu prêt à faire de l'exercice ! </h1>
+        </div>
+
+        <style>
+            .card {
+                cursor: pointer;
+            }
+        </style>
+        
+        <div class="d-flex justify-content-between">
+            <div class="card text-white bg-danger mb-3 mr-3" style="max-width: 18rem;">
+                <div class="card-header">Exercise 1</div>
+                <div class="card-body">
+                    <h5 class="card-title">Description exercice :</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        
+            <div class="card text-white bg-warning mb-3 mr-3" style="max-width: 18rem;">
+                <div class="card-header">Exercise 2</div>
+                <div class="card-body">
+                    <h5 class="card-title">Description exercice :</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        
+            <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                <div class="card-header">Exercise 3</div>
+                <div class="card-body">
+                    <h5 class="card-title">Description exercice :</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
         
-        <div class="d-flex flex-column mb-3   ">
-            <button type="button" class="btn btn-primary btn-block border rounded-pill w-100 p-3" (click)="selectedExercise = 1">Exercice 1</button>
-            <button type="button" class="btn btn-info btn-block border rounded-pill w-100 p-3" (click)="selectedExercise = 2">Exercice 2</button>
-            <button type="button" class="btn btn-danger btn-block border rounded-pill w-100 p-3" (click)="selectedExercise = 3">Exercice 3</button>
-        </div>
+                
+        
+
     </div>
     
 </body>
